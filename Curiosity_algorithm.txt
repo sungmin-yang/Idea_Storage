@@ -1,2 +1,50 @@
-what is curiosity and how to "realise" into algorithms.
+what is curiosity and how to "realize" into algorithms.
 Here's my some examples.
+
+
+
+==== High level curiousity ====
+
+while(1):
+  if there is anything :
+    try : asking(anything, from_teachers)
+    except : memory.save(unsolved_question)
+    find_answer(anything, from_any_source)
+   
+  curiousity = choose(random_subject)
+  if curiousity is solved : pass
+  elif curiousity <= little_solved :
+    f_answer = find_answer(curiousity, from_any_source, passion=Middle)
+  # should use fuzzy logic here.
+  elif curiousity == initial :
+    f_answer = find_answer(curiousity, from_any_source, passion=Full)
+   
+  if f_answer <= ex_f_answer:
+   memory.update(f_answer)
+  else : pass #not save or update
+  
+  
+  unsolved_question = picking([f for f in f_answers if f != fullfill])
+  reminding(unsolved_question, mood)
+  
+  
+  
+  
+
+
+==== CONSTANTs ====
+anything        = dectect(facts)
+random_subject  = combination(selected_topics)
+
+topics          = {daily_life : [family, friend, ....], work : [], study, ...}
+topics_weight   = [(daily_life, 10), (work, 8), (study, 6), () ...]
+selected_topics = selecting_topics(topics, topics_weight, mood)
+
+mood            = affected_mood(situation)
+situation       = affted_situation(facts)
+facts           = extract_info(vision, melody, temperature, humid, current_time, ...)
+
+
+    
+    
+def asking(
