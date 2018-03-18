@@ -30,6 +30,22 @@ def voice(sound, Alice):
   compare_feature(sound, Alice)
   return Boolean
 
+def ask_5_question(Alice):
+  # question must be not related to politics or sensitive one.
+  # e.g., which animal I like -> lion
+  # e.g., which sport I like -> badminton
+  # e.g., grandma first name and last.
+  # e.g., memorable year -> 2001
+  answers = select_random_5(Alice.previous_answers)
+  questions = generate_answer_question(answers)
+  result = []
+  for q in questions:
+    usr_in = input()
+  if result is perfect:
+    return Boolean
+  else: report_server() #/ call police.
+    
+
 Witness_Jack = personal_data(personal_info + ID + pwd + Face + Finger_print)
 def witness(face_input, signature_input, voice_input, Witness_Jack):
   report_to(law_firm)
