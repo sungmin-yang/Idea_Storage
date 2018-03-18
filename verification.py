@@ -1,3 +1,5 @@
+# Abstract work flow
+
 class personal_data(*args):
   face = get_Info(from_server, "face")
   finger_print = get_Info(from_server, "finger_print")
